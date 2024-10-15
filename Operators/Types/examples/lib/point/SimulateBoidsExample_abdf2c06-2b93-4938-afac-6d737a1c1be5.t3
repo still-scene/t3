@@ -158,23 +158,6 @@
       "Outputs": []
     },
     {
-      "Id": "d58185a1-d16e-4316-8b77-29f2daa165b3"/*GridPoints*/,
-      "SymbolId": "3ee8f66d-68df-43c1-b0eb-407259bf7e86",
-      "InputValues": [
-        {
-          "Id": "6de4f08a-5834-4b9b-93e8-8f93fe32164c"/*CountZ*/,
-          "Type": "System.Int32",
-          "Value": 100
-        },
-        {
-          "Id": "940133dd-4e45-4a78-8b13-8831e30f78b8"/*Scale*/,
-          "Type": "System.Single",
-          "Value": 0.968
-        }
-      ],
-      "Outputs": []
-    },
-    {
       "Id": "3068ef02-fbfa-4c9c-8968-721f6bbc5855"/*PointSimulation*/,
       "SymbolId": "10507c42-1240-47cc-9569-5e3f1c733e99",
       "InputValues": [
@@ -328,7 +311,7 @@
         {
           "Id": "dd92fb0a-4b3e-4492-bf59-437d914a1ad3"/*DistanceToTarget*/,
           "Type": "System.Single",
-          "Value": 0.61
+          "Value": 0.9
         },
         {
           "Id": "df65e717-e2fd-4e4f-9e41-d6bcd3fe67f1"/*SpinRate*/,
@@ -603,6 +586,48 @@
           "Id": "108ff533-f205-4989-b894-acf48e3cc1db"/*Metal*/,
           "Type": "System.Single",
           "Value": 0.61
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "c2e17dec-281e-4efa-bf92-635136abc787"/*_BoidDefinition*/,
+      "SymbolId": "6b8db50a-383c-486c-8065-3aefe8c85576",
+      "InputValues": [
+        {
+          "Id": "bb9a7b9e-05f2-4383-b8eb-c73f21125ea3"/*CohesionRadius*/,
+          "Type": "System.Single",
+          "Value": 0.16499999
+        },
+        {
+          "Id": "44836f44-717a-4bb7-b115-15270da62e1c"/*CohesionDrive*/,
+          "Type": "System.Single",
+          "Value": 0.007
+        },
+        {
+          "Id": "d33de75a-02ae-4fc3-99a7-b28227acb531"/*AlignmentRadius*/,
+          "Type": "System.Single",
+          "Value": 0.082
+        },
+        {
+          "Id": "43c6242b-8393-4e99-9b6a-97ce22d59e3d"/*AlignmentDrive*/,
+          "Type": "System.Single",
+          "Value": 0.114
+        },
+        {
+          "Id": "d894dd3d-7151-47d2-b665-d60318fe096d"/*SeparationRadius*/,
+          "Type": "System.Single",
+          "Value": 0.021
+        },
+        {
+          "Id": "cbb63479-1a21-4427-9441-2e1dc73d3f3c"/*SeparationDrive*/,
+          "Type": "System.Single",
+          "Value": 0.224
+        },
+        {
+          "Id": "0ef87235-ea06-406a-b291-5808bd947d8c"/*MaxSpeed*/,
+          "Type": "System.Single",
+          "Value": 0.13
         }
       ],
       "Outputs": []
