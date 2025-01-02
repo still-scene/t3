@@ -1,0 +1,132 @@
+{
+  "Id": "48b64c79-b947-49c8-8606-0cf40dc1576d"/*PlayAtlas2*/,
+  "Description": "",
+  "InputUis": [
+    {
+      "InputId": "0d9ab8d3-9710-4828-bf05-258552282b2e"/*Image*/,
+      "Relevancy": "Required",
+      "Position": {
+        "X": 132.69783,
+        "Y": -15.624207
+      }
+    },
+    {
+      "InputId": "8bf2c823-125c-4563-ba07-022f2eb4aac9"/*CountX*/,
+      "Position": {
+        "X": 132.69783,
+        "Y": 29.375793
+      },
+      "Description": "The amount of frames in a row"
+    },
+    {
+      "InputId": "78096d4b-eef2-4b9d-b2b7-cb4656e6ab95"/*CountY*/,
+      "Position": {
+        "X": 132.69783,
+        "Y": 74.37579
+      },
+      "Description": "The amount of frames in a column"
+    },
+    {
+      "InputId": "11bf0d1e-643f-4a3e-abd1-fdecf3dfa16a"/*Truncate*/,
+      "Position": {
+        "X": 132.69783,
+        "Y": 119.37579
+      },
+      "Description": "An atlas will sometimes have empty frames at the end of the final row. Specify how many here."
+    },
+    {
+      "InputId": "7a624e46-e580-4441-b232-9f53c93cb397"/*Rate*/,
+      "Position": {
+        "X": 132.69783,
+        "Y": 164.3758
+      },
+      "Description": "The animation's playback speed"
+    }
+  ],
+  "SymbolChildUis": [
+    {
+      "ChildId": "aec3134b-9809-4302-8c2a-4f338c3ec56d"/*_ImageFxShaderSetupStatic*/,
+      "Style": "Resizable",
+      "Size": {
+        "X": 94.37823,
+        "Y": 258.05994
+      },
+      "Position": {
+        "X": 1135.6077,
+        "Y": -91.21503
+      }
+    },
+    {
+      "ChildId": "03f3f05e-6739-4aa8-8394-6ac8d524f1b6"/*IntToFloat*/,
+      "Position": {
+        "X": 282.6978,
+        "Y": 29.375793
+      }
+    },
+    {
+      "ChildId": "1f51fea5-ae2f-4cc3-ba17-9b6c8e94707d"/*IntToFloat*/,
+      "Position": {
+        "X": 282.6978,
+        "Y": 74.37579
+      }
+    },
+    {
+      "ChildId": "0202411f-99df-42f6-93ed-836beb0c45b5"/*IntToFloat*/,
+      "Position": {
+        "X": 282.6978,
+        "Y": 119.37579
+      }
+    },
+    {
+      "ChildId": "46d7b5bb-f33c-4b75-8cb4-462331c0f8db"/*AnimValue*/,
+      "Position": {
+        "X": 282.6978,
+        "Y": 175.3758
+      }
+    },
+    {
+      "ChildId": "f6ffc76b-f772-4dbb-ba67-94d7ffc329ae"/*GetTextureSize*/,
+      "Position": {
+        "X": 487.98157,
+        "Y": 274.4107
+      }
+    },
+    {
+      "ChildId": "f011d49d-4be5-4a00-8ac8-af8c580da762"/*Int2Components*/,
+      "Position": {
+        "X": 637.98157,
+        "Y": 274.4107
+      }
+    },
+    {
+      "ChildId": "f192cf46-5fae-4be2-944a-84ca38c846e8"/*IntDiv*/,
+      "Position": {
+        "X": 787.98157,
+        "Y": 205.41068
+      }
+    },
+    {
+      "ChildId": "b0ac5879-6b9c-40ea-8b22-534cb9d45d22"/*IntDiv*/,
+      "Position": {
+        "X": 787.98157,
+        "Y": 274.4107
+      }
+    },
+    {
+      "ChildId": "3260b2fb-2488-4a6f-8231-2fd9a4a618ef"/*Int2*/,
+      "Position": {
+        "X": 937.98157,
+        "Y": 205.41068
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "f365e83a-15d8-4c71-934a-a2d91c40c62d"/*TextureOutput*/,
+      "Position": {
+        "X": 1296.0187,
+        "Y": -33.008373
+      }
+    }
+  ]
+}
