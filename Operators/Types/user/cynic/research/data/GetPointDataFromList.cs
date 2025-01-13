@@ -19,11 +19,15 @@ namespace T3.Operators.Types.Id_1de7b1be_cab6_4beb_a837_4c817562efb2
         [Output(Guid = "46BB03A9-A31E-4416-B38B-7B06D7BCBC47")]
         public readonly Slot<Vector4> Orientation = new ();
         
+        [Output(Guid = "5309EF41-30B9-48A7-8F5C-9210FE7ACE50")]
+        public readonly Slot<Vector4> Color = new();
+
         public GetPointDataFromList()
         {
             W.UpdateAction = Update;
             Position.UpdateAction = Update;
             Orientation.UpdateAction = Update;
+            Color.UpdateAction = Update;
         }
 
         private void Update(EvaluationContext context)
@@ -46,6 +50,7 @@ namespace T3.Operators.Types.Id_1de7b1be_cab6_4beb_a837_4c817562efb2
             Position.Value = point.Position;
             W.Value = point.W;
             Orientation.Value = new Vector4(point.Orientation.X, point.Orientation.Y, point.Orientation.Z, point.Orientation.W);
+            Color.Value = point.Color;
         }
         
         [Input(Guid = "e35d2024-704e-42b4-8835-a53fa439a2bc")]
