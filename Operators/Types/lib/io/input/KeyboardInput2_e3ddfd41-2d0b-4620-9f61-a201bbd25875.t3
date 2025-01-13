@@ -1,0 +1,17 @@
+{
+  "Name": "KeyboardInput2",
+  "Id": "e3ddfd41-2d0b-4620-9f61-a201bbd25875",
+  "Namespace": "lib.io.input",
+  "Inputs": [
+    {
+      "Id": "2aa9e2e4-1830-4483-88e5-1f2ca50bfe3f"/*Zone*/,
+      "DefaultValue": 0
+    },
+    {
+      "Id": "8846aa50-e4d0-433c-9e5b-013a93f17f79"/*Mode*/,
+      "DefaultValue": 0
+    }
+  ],
+  "Children": [],
+  "Connections": []
+}

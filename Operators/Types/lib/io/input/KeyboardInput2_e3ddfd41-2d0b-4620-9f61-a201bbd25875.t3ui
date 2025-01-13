@@ -1,0 +1,33 @@
+{
+  "Id": "e3ddfd41-2d0b-4620-9f61-a201bbd25875"/*KeyboardInput2*/,
+  "Description": "Works only for number keys, it returns a int value corresponding to the pressed key. Check parameters details.\nIt's useful combined with operators who use a int for selection such as [Switch], [PickTexture], [PickString], [PickFloat]...",
+  "InputUis": [
+    {
+      "InputId": "2aa9e2e4-1830-4483-88e5-1f2ca50bfe3f"/*Zone*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "InputId": "8846aa50-e4d0-433c-9e5b-013a93f17f79"/*Mode*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 45.0
+      },
+      "Description": "IsDown: returns pressed key number until release \nKeepActive: remains until an other key is pressed\n",
+      "Min": 0,
+      "Max": 1
+    }
+  ],
+  "SymbolChildUis": [],
+  "OutputUis": [
+    {
+      "OutputId": "64b9dec6-2b3a-4d7e-a174-991c8a8b92ce"/*PressedNumber*/,
+      "Position": {
+        "X": 300.0,
+        "Y": 200.0
+      }
+    }
+  ]
+}
